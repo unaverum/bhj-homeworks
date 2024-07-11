@@ -1,6 +1,5 @@
 const cookie = document.getElementById('cookie');
 const clicks = document.getElementById('clicker__counter');
-let startValue = 0;
 
 cookie.onclick = function() {
     let newClick = parseInt(clicks.textContent);
